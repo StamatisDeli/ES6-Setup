@@ -1,28 +1,46 @@
-ES6 Starter kit
+# ES6 Starter kit
 
-Version: 2.0.0
+Version: 3.0.0
 
-Purpose: developer environment easy and fast setup
-Tech Used: 
-	webpack,
-	webpack-cli, 
-	@babel/core,
-	babel-loader,
-	@babel/preset-env: babel preset env for compiling Javascript ES6 code down to ES5,
-	html-webpack-plugin,
-	mini-css-extract-plugin,
-	css-loader,
-	webpack-dev-server,
-	url-loader,
-	file-loader
+Purpose:
 
-Do: nmp install
+Developer environment easy and fast setup.
 
-Then: npm run start
+	Tech Used: 
+		webpack,
+		webpack-cli, 
+		@babel/core,
+		babel-loader,
+		@babel/preset-env: babel preset env for compiling Javascript ES6 code down to ES5,
+		html-webpack-plugin,
+		mini-css-extract-plugin,
+		css-loader,
+		webpack-dev-server,
+		url-loader,
+		file-loader
+
+## Instructions:
+
+* Webpack must be version 4.2.0
+
+* Do: **npm install**
+
+* Then: **npm run start**
 
 This setup should be ready for hacking. 
 
-To change the favicon, change the path in webpack.config, under plugins
+* Change the favicon:
 
-To compile: npm run build
-That will make a dist folder with the compiled files
+	Edit the file in **webpack.config.js**, under plugins:
+
+	favicon: './src/images/sdlogo.ico' //your icon here
+
+* To compile: 
+
+	Do: **npm run build**
+
+	That will make a dist folder with the compiled files
+
+## Resources:
+
+https://www.valentinog.com/blog/webpack-tutorial/
