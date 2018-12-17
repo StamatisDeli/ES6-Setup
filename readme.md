@@ -39,7 +39,7 @@ This setup should be ready for hacking.
 
 	Do: **npm run build**
 
-	That will make a dist folder with the compiled files
+	That will make a dist folder with the compiled files.
 
 ## Resources:
 
